@@ -1,0 +1,31 @@
+div.box{
+    /* độ rộng */
+    width: 300px;
+    /* chiều cao */
+    height: 300px;
+    background-color: rgb(231, 9, 9);
+}
+p{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+td.description {
+    /* khi co trang lại thì độ rộng tối thiểu để trang h thị b/thường */
+    /* tương tự với chiều cao */
+    /* min-width: 250px; */
+    /* khi mở rộng trang thì độ rộng tối đa để hiện thị b/thường */
+    /* tương tự với chiều cao */
+    max-height: 50px;
+    max-width: 50px;
+    text-align: left;
+}
+td{
+    vertical-align: text-top;
+}
+.p1{
+    overflow: hidden;
+}
+.p2{
+    overflow:scroll;
+}

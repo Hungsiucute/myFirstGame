@@ -1,0 +1,55 @@
+
+.a{ 
+    /* leading: không gian dọc giữa các dòng văn bản */
+    /*line-height = leading + font-size */
+    line-height: 32px;
+    font-size: 16px;
+    /* k/cách giữa các chữ, các từ */
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    /* căn chỉnh văn bản */
+    text-align:center;
+    /* thụt đầu dòng */
+    text-indent: 16px;
+    /* tạo bóng cho văn bản */
+    text-shadow: 2px 2px 1px grey;
+    
+}
+/* chữ đầu tiên*/
+p.a::first-letter{
+    font-size: 200%;
+}
+/* dòng đầu tiên */
+p.b::first-line{
+    font-size: 150%;
+}
+.d *{
+    /* căn chỉnh phần tử trong ô */
+    vertical-align: text-top;
+}
+/* link gốc khi chưa click vào lần nào */
+.link:link{
+    color: black;
+    text-decoration: none;
+}
+/* link khi đã click vào ít nhất 1 lần */
+.link:visited{
+    color:purple;
+}
+/* link khi đưa con trỏ chuột vào */
+.link:hover{
+    color:seagreen;
+    text-decoration: underline;
+}
+/* link khi nhấn vào */
+.link:active{
+    color:blue;
+}
+/* link sẽ được giữ theo kiểu của focus sau khi click vào */
+.link:focus{
+    color:yellow;
+    text-decoration: none;
+}
+*{
+    margin:0;
+}
