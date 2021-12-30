@@ -29,3 +29,64 @@ td{
 .p2{
     overflow:scroll;
 }
+.vit{
+    /* viền hộp  */
+    border: 2px solid blue;
+
+    /* lề của hộp so với trang web  */
+    margin: 10px;
+
+    /* lề từ chữ đến viền của hộp  */
+    padding: 20px 20px 20px 20px;
+
+    /* kích thước viền của hộp  */
+    border-width: 20px;
+
+    /* kích thước viền của hộp ở phía trên */
+    border-top-width: 20px;
+
+    /* kích thước viền của hộp ở phía bên phải */
+    border-right-width: 20px;
+
+    /* kích thước viền của hộp ở phía dưới */
+    border-bottom-width: 20px;
+
+    /* kích thước viền của hộp ở phía bên trái */
+    border-left-width: 20px;
+
+    /* kiểu của viền hộp  */
+    border-style:double;
+     
+    /* kiểu viền của hộp ở phía trên */
+    border-top-style: dashed;
+
+    /* tương tự với trái phải dưới */
+
+    border-color: blueviolet;
+    
+    border-top-color: chartreuse;
+
+    border-bottom-color: cyan;
+
+    text-align: center;
+
+}
+
+li {
+    display: inline;
+    background-color: cyan;
+}
+.thetrang{
+    /* hiển thị  */
+    visibility: visible;
+}
+.thanlan{
+    border: 100px ridge rgb(16, 109, 21);
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 8px rgb(51, 44, 44);
+    -webkit-border-image: url("https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0%27") 
+    1 1 1 1 stretch;
+    border-image: url("https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0%27") 
+    11 11 11 11 round;
+}
