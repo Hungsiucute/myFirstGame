@@ -8,7 +8,7 @@ div.box{
 p{
     width: 200px;
     height: 200px;
-    background-color: hotpink;
+
 }
 td.description {
     /* khi co trang lại thì độ rộng tối thiểu để trang h thị b/thường */
@@ -81,12 +81,17 @@ li {
     visibility: visible;
 }
 .thanlan{
-    border: 100px ridge rgb(16, 109, 21);
-    padding: 20px;
+    border: 50px solid transparent;
     margin: 50px;
-    box-shadow: 5px 5px 5px 8px rgb(51, 44, 44);
-    -webkit-border-image: url("https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0%27") 
-    1 1 1 1 stretch;
-    border-image: url("https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0%27") 
-    11 11 11 11 round;
+    box-shadow: /*chỉnh bóng sang trái hoặc phải*/ 5px 
+     /*chỉnh bóng lên trên hoặc xuống dưới*/ 5px
+     /*làm mờ bóng*/ 5px
+     /*chỉnh kích cỡ của bóng*/ 8px
+     /*màu bóng*/ rgb(241, 41, 198); 
+    
+    /*bo viền*/
+    border-radius: 7%;
+
+    border-image: url('../img/Lovepik_com-611623341-Round\ pattern\ border\ illustration.png')1250 round;
 }
+
