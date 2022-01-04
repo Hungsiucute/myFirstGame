@@ -1,0 +1,34 @@
+
+header {
+  text-align: center;
+}
+
+/* khổ thứ nhất */
+.kho1 {
+  text-align: center;
+}
+.kho1 ol {
+  /* kiểu của list: chấm tròn đậm */
+  list-style-type: disc;
+}
+.kho1 ul {
+  /* kiểu của list: chấm vuông đậm */
+  list-style-type: square;
+}
+.kho1 .cau_cuoi1 {
+  /* kiểu của list: chấm tròn viền */
+  list-style-type: circle;
+}
+
+/* khổ thứ 2 */
+.kho2 {
+  text-align: center;
+}
+.kho2 ul {
+  list-style-image: url('../img/a.png')
+}
+.kho2 li{
+  margin: 20px;
+}
+
+
