@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #111111;}
+table {
+  width: 300px;
+  padding: 5px;
+  /* ẩn/hiện ô trống */
+  empty-cells: hide;
+  /* khoảng cách giữa các ô liền kề theo chiều ngang - chiều dọc */
+  border-spacing: 2px 2px;
+  /* gộp các ô lại zới nhau */
+  border-collapse: separate;
+}
+table tr,td {
+  border: 4px solid darkcyan;
+  color: aquamarine;
+}

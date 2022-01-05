@@ -30,5 +30,16 @@ header {
 .kho2 li{
   margin: 20px;
 }
-
-
+/* khổ thứ 3 */
+.kho3 ul{
+  list-style-position: inside;
+}
+.kho3 ol{
+  list-style-position: outside;
+  list-style-type: disc;
+}
+/* khổ thứ tư */
+.kho4 ul{
+  list-style: outside upper-roman;
+  width: 200px;
+}
